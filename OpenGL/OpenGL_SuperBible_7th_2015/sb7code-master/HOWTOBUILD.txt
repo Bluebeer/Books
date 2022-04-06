@@ -1,5 +1,8 @@
 OpenGL SuperBible 7th Edition Examples - How to Build
 =====================================================
+踩坑记录：1. 查看how to build.txt 和readme 2.build 文件夹里有vs2013.projx 模板，没提交build文件夹编译不过
+2. bin 文件夹也需要提交，里面是资源文件。3.根据编译指导，先编译glfw,再编工程，最后可以单个项目编译出exe
+编译环境： 1. VS2013 ，2.cmake 2.8.12
 
 This source code archive uses CMake to build. The samples also use GLFW library, a
 snapshot of which is included in the `extern` folder. It's also possible to use a different
